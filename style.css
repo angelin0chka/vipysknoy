@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+ header{
+    background-color: rgb(255, 192, 203);
+    padding:20px; 
+ }
+header a{
+    text-decoration: none;
+    color: white
+}
+a:hover{
+    color: blueviolet;
+    transition: all 2.5s linear;
+
+}
+h1{
+ text-align: center;
+ color: rgb(138, 43, 226)
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+}
